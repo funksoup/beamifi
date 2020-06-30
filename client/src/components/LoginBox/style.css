@@ -1,0 +1,33 @@
+.login-btn {
+    padding: 2px 30px;
+    border: 0;
+    font-size: 18px;
+    border-radius: 3px;
+    font-family: Oxygen, sans-serif;
+    background-color: rgba(15,15,15,0.03);
+    margin-top: 20px;
+    border: 2px solid #417cef;
+    transition: background-color 0.3s ease-out;
+    cursor: pointer;
+}
+
+.login-btn:hover, .login-btn:focus {
+    background-color: #417cef;
+    color: white;
+}
+
+.login-input {
+    height: 2.1em;
+    border-radius: 3px;
+    border: 1px solid #417cef;
+    transition: border 0.4s ease-out;
+    padding: 13px;
+    font-family: Oxygen, sans-serif;
+    font-size: 19px;
+    color: #3e3e42;
+    background-color: rgba(15,15,15,0.01);
+}
+
+.login-input:hover {
+    border: 2px solid #417cef;
+}

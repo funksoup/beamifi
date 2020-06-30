@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import LoginBox from '../LoginBox/LoginBox';
+// import RegisterBox from '../RegisterBox/RegisterBox';
 import bg from "../../asset/bg.png";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import './style.css'
+import RegisterBox from "../RegisterBox/RegisterBox";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -12,7 +15,7 @@ export default class Header extends Component {
     return (
       <div className='row'>
         <div className='col s12 m6'>
-          <img className='responsive-img' src={bg} />
+          <img className='responsive-img' src={bg} alt="backgroundImg" />
         </div>
         <div className='col s12 m6' id="heading">
           <h4 className='font'>
@@ -43,7 +46,7 @@ export default class Header extends Component {
           </a>
         </div>
 
-        <div>
+    
           <div
             ref={(Modal) => {
               this.Modal = Modal;
@@ -52,22 +55,28 @@ export default class Header extends Component {
             className='modal'
           >
             <div className='modal-content'>
-              <h4 className='font'>The Offer Is Coming Soon!</h4>
-              <p className='para'>
-                Thanks For You Concern, but we're under development!
-              </p>
+
+            <div className="root-container">
+            <div className="box-controller">
+              <div className="controller">
+                Login
+              </div>
+              <div className="controller">
+                Register
+              </div>
             </div>
-            <div className='modal-footer'>
-              <a
-                href='#close'
-                className='btn btn-header modal-close white-text teal accent-3'
-              >
-                Close
-              </a>
+              <div className="box-container">
+              <LoginBox />
+              {/* <RegisterBox /> */}
+              </div>
             </div>
+
+            </div>
+
           </div>
-        </div>
+     
       </div>
     );
   }
 }
+
