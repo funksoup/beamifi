@@ -21,7 +21,7 @@ export default class Navbar extends Component {
             <ul id='nav-mobile' className='right hide-on-med-and-down'>
               <li>
                 <a
-                  href='#home'
+                  href='/'
                   className='btn btn-nav transparent z-depth-0 blue-text text-darken-4'
                 >
                   Home
@@ -29,7 +29,7 @@ export default class Navbar extends Component {
               </li>
               <li>
                 <a
-                  href='#about'
+                  href='/about'
                   className='btn btn-nav transparent z-depth-0 blue-text text-darken-4'
                 >
                   About
@@ -38,7 +38,7 @@ export default class Navbar extends Component {
 
               <li>
                 <a
-                  href='#contact'
+                  href='/contact'
                   className='btn btn-nav transparent z-depth-0 blue-text text-darken-4'
                 >
                   Contact
@@ -55,7 +55,7 @@ export default class Navbar extends Component {
         <ul id='slide-out' className='sidenav'>
         <li>
             <a
-              href='#home'
+              href='/'
               className='btn btn-nav transparent z-depth-0 white-text text-darken-4 blue darken-4'
             >
               Home
@@ -64,7 +64,7 @@ export default class Navbar extends Component {
 
           <li>
             <a
-              href='#about'
+              href='/about'
               className='btn btn-nav transparent z-depth-0 white-text text-darken-4 blue darken-4'
             >
               About
@@ -73,7 +73,7 @@ export default class Navbar extends Component {
 
           <li>
             <a
-              href='#contact'
+              href='/contact'
               className='btn btn-nav transparent z-depth-0 white-text text-darken-4 blue darken-4'
             >
               Contact
