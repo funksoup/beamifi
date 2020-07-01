@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import LoginBox from '../LoginBox/LoginBox';
-// import RegisterBox from '../RegisterBox/RegisterBox';
 import bg from "../../asset/bg.png";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
@@ -8,6 +7,30 @@ import './style.css'
 import RegisterBox from "../RegisterBox/RegisterBox";
 
 export default class Header extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoginOpen: true,
+      isRegisterOpen: false
+    };
+  }
+
+  toggleLogin = () => {
+    this.setState({
+      isLoginOpen: true,
+      isRegisterOpen: false
+    }) 
+  }
+
+  toggleRegister = () => {
+    this.setState({
+      isLoginOpen: false,
+      isRegisterOpen: true
+    }) 
+  }
+  
+
   componentDidMount() {
     M.Modal.init(this.Modal);
   }
@@ -58,17 +81,20 @@ export default class Header extends Component {
 
             <div className="root-container">
             <div className="box-controller">
-              <div className="controller">
+              <div onClick={this.toggleLogin} className="controller">
                 Login
               </div>
-              <div className="controller">
+              <div onClick={this.toggleRegister} className="controller">
                 Register
               </div>
             </div>
               <div className="box-container">
-              <LoginBox />
-              {/* <RegisterBox /> */}
+
+              {this.state.isLoginOpen? <LoginBox /> : <RegisterBox />}
+      
+              
               </div>
+             
             </div>
 
             </div>
