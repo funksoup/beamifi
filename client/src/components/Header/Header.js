@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import LoginBox from '../LoginBox/LoginBox';
-// import RegisterBox from '../RegisterBox/RegisterBox';
 import bg from "../../asset/bg.png";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
