@@ -40,11 +40,12 @@ export default class Header extends Component {
         <div className='col s12 m6'>
           <img className='responsive-img' src={bg} alt="backgroundImg" />
         </div>
+        <div className="container-fluid">
         <div className='col s12 m6' id="heading">
           <h4 className='font'>
             <b>Ramp Up Your Remote Collaboration</b>
           </h4>
-          <h1 className='title blue-text text-darken-4'>
+          <h1 className='title blue-text text-darken-4 flow-text title'>
             with
             <u>
               <span className='orange-text text-accent-3 i-line'>Beamifi</span>
@@ -67,6 +68,7 @@ export default class Header extends Component {
           >
             Let's start
           </a>
+          </div>
         </div>
 
     
