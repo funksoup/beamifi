@@ -51,7 +51,7 @@ export default class Header extends Component {
             </u>{" "}
           </h1>
           <p className='para'>
-          Beamifi is a video chat app that enables optimal remote collaboration through video communication, so you can fully participate in conversations.
+          Beamifi is a video chat app that enables optimal remote collaboration
       
           </p>
           <h6 className='font'>
