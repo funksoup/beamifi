@@ -26,6 +26,10 @@ body,
     font-size: 1.4rem;
 }
 
+.controller:focus, .controller:hover {
+    background-color: #417cef !important;
+}
+
 .root-container {
     width: 100%;
     height: 100%;
