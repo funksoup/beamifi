@@ -8,8 +8,8 @@ export default class Contact extends Component {
             name: '',
             email: '',
             message: ''
-        }
-    }
+        };
+    };
 
 
         render() {
@@ -52,6 +52,6 @@ export default class Contact extends Component {
         handleSubmit(event) {
         }
         </div>
-        )
-    }
-}
+        );
+    };
+};
