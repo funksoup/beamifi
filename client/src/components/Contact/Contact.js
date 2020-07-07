@@ -15,7 +15,7 @@ export default class Contact extends Component {
         render() {
         return (
             <div>
-        <Navbar />
+            <Navbar />
             Contact Page
             <div className="Contact">
             <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
@@ -35,7 +35,7 @@ export default class Contact extends Component {
             </form>
             </div>
         );
-        }
+        
         
             onNameChange(this) {
             this.setState({name: this.target.value})
@@ -52,6 +52,6 @@ export default class Contact extends Component {
         handleSubmit(event) {
         }
         </div>
-    )
-}
+        )
+    }
 }
