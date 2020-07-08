@@ -1,5 +1,6 @@
 import React from 'react'
 import Member from '../layout/Member/Member';
+import ReactContactForm from 'react-mail-form';
 import Footer from '../layout/Footer/Footer';
 
 const About = () => {
@@ -36,7 +37,8 @@ const About = () => {
           </div>
           </div>
 
-          <h1 className="text-center mt-3">Contact Us</h1>
+          <h1 className="text-center mt-3">Questions? Comments? Contact Us!</h1>
+          <ReactContactForm to = "josephine@funksoup.com" titlePlaceholder = "Subject" contentsPlaceholder = "Message" />
           <Footer />
         </div>
     )
