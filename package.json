@@ -1,7 +1,7 @@
 {
-  "name": "react-contact-keeper",
+  "name": "Beamifi",
   "version": "1.0.0",
-  "description": "Beamifi",
+  "description": "Beamifi - video messaging",
   "main": "server.js",
 
   "engines": {
