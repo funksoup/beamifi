@@ -14,11 +14,11 @@ import AlertState from './context/alert/AlertState';
 import setAuthToken from './utils/setAuthToken';
 import './App.css';
 
-// import react-admin components
-import { render } from 'react-dom';
-import { Admin, Resource } from 'react-admin';
-import restProvider from 'ra-data-simple-rest';
-import { PostList, PostEdit, PostCreate, PostIcon } from './posts';
+// // import react-admin components
+// import { render } from 'react-dom';
+// import { Admin, Resource } from 'react-admin';
+// import restProvider from 'ra-data-simple-rest';
+// import { PostList, PostEdit, PostCreate, PostIcon } from './posts';
 
 if(localStorage.token) {
   setAuthToken(localStorage.token);
