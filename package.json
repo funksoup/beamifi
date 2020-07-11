@@ -1,8 +1,14 @@
 {
   "name": "react-contact-keeper",
   "version": "1.0.0",
-  "description": "Contact manager app",
+  "description": "Beamifi",
   "main": "server.js",
+
+  "engines": {
+    "npm": "6.14.5",
+    "node": "12.16.3"
+  },
+
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
