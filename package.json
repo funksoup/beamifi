@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhoebeYahengWu/react-contact-keeper.git"
+    "url": "git+https://github.com/funksoup/beamifi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PhoebeYahengWu/react-contact-keeper/issues"
+    "url": "https://github.com/funksoup/beamifi"
   },
-  "homepage": "https://github.com/PhoebeYahengWu/react-contact-keeper#readme",
+  "homepage": "https://github.com/funksoup/beamifi",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "axios": "^0.19.2",
