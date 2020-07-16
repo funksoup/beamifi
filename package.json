@@ -32,6 +32,7 @@
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "connected-react-router": "^6.8.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
     "json-loader": "^0.5.7",
@@ -43,7 +44,8 @@
     "ra-data-json-server": "^3.7.1",
     "ra-data-simple-rest": "^3.7.1",
     "react-mail-form": "^2.1.0",
-    "semantic-ui-react": "^0.88.2"
+    "semantic-ui-react": "^0.88.2",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
