@@ -4,6 +4,7 @@ const path = require('path');
 const socketio = require('socket.io');
 const http = require('http');
 const cors = require('cors');
+require('dotenv').config();
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 
@@ -25,6 +26,7 @@ app.use(express.json({ extended: false }));
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/contacts', require('./routes/contacts'));
+app.use('/api/contact-us', require('./routes/contact-us'));
 
 if(process.env.NODE_ENV==='production') {
     app.use(express.static('client/build'));
