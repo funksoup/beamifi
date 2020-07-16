@@ -1,6 +1,7 @@
 import React from 'react'
 import Member from '../layout/Member/Member';
 import Footer from '../layout/Footer/Footer';
+import ContactUs from '../layout/ContactUs/ContactUs';
 
 const About = () => {
     return (
@@ -36,7 +37,9 @@ const About = () => {
           </div>
           </div>
 
-          <h1 className="text-center mt-3">Contact Us</h1>
+          <h1 className="text-center mt-3">Questions? Comments? Contact Us!</h1>
+          <ContactUs />
+          <br></br>
           <Footer />
         </div>
     )
