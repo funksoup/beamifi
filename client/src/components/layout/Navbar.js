@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 import ContactContext from '../../context/contact/contactContext';
+import authContext from '../../context/auth/authContext';
 
 const Navbar = ({ title, icon }) => {
 
@@ -63,12 +64,14 @@ const Navbar = ({ title, icon }) => {
 
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
-  icon: PropTypes.string
+  icon: PropTypes.string,
+
 };
 
 Navbar.defaultProps = {
   title: 'Beamifi',
-  icon: 'fab fa-viadeo'
+  icon: 'fab fa-viadeo',
+
 };
 
 export default Navbar;

@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import Navbar from './components/layout/Navbar';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login'; 
+import Chat from './components/Chat/Chat';
 import Alerts from './components/layout/Alerts';  
 import PrivateRoute from './components/routing/PrivateRoute';
 
@@ -16,7 +17,7 @@ import './App.css';
 
 // // import react-admin components
 import { Admin, Resource } from 'react-admin';
-import Dashboard from './container/Dashboard'
+import Dashboard from './container/Dashboard' 
 
 
 if(localStorage.token) {
@@ -39,6 +40,7 @@ const App = () => {
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} /> 
               <Route path="/dashboard" component={Dashboard}/>
+              <Route path="/chat" component={Chat} />
             </Switch>
           </div>
       </Fragment>
