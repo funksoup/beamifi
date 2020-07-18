@@ -1,5 +1,5 @@
 import React, { useContext,useEffect } from 'react'
-import SignIn from '../../components/Join/Join'
+import Join from '../../components/Join/Join'
 import AuthContext from '../../context/auth/authContext'
 
 const Home = () => {
@@ -11,8 +11,14 @@ const Home = () => {
     },[])
     return (
         <>
-
-        <SignIn/>
+        <Join/>
+        <Join/>
+        <Join/>
+        <Join/>
+        <Join/>
+        <Join/>
+        <Join/>
+        <Join/>
      
         </>
     )

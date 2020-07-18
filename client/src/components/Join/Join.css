@@ -3,10 +3,14 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 100vh;
   align-items: center;
 }
 
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .joinInnerContainer {
   width: 80%;
 }
