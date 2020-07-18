@@ -26,11 +26,18 @@ export default class ContactUs extends Component {
     handleSubmit(event) {
         event.preventDefault();
         Axios.post('/api/contact-us/send', this.state).then(function(res){
-            console.log(res);
+            // console.log(res);
+            alert("Your message has been sent to Beamifi Team!")
 
         }).catch(function(err){
             console.log(err);
         });
+
+        this.setState({
+            name: '',
+            email: '',
+            message: ''
+        })
     }
         render() {
             
