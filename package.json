@@ -41,16 +41,20 @@
     "mdbreact": "^4.27.0",
     "mongoose": "^5.9.20",
     "nodemailer": "^6.4.10",
+    "opentok": "^2.10.0",
+    "particles-bg": "^2.5.0",
     "ra-core": "^3.7.1",
     "ra-data-fakerest": "^3.6.2",
     "ra-data-json-server": "^3.7.1",
     "ra-data-simple-rest": "^3.7.1",
+    "react-leaf-carousel": "^2.0.3",
     "react-mail-form": "^2.1.0",
     "semantic-ui-react": "^0.88.2",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "react-alice-carousel": "^1.19.3"
   }
 }

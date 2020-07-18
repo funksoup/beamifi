@@ -1,14 +1,12 @@
 .form {
   display: flex;
-  border-top: 2px solid #D3D3D3;
+  border: 2px solid #2C5364;
 }
 
 .input {
   border: none;
   border-radius: 0;
-  padding: 5%;
   width: 80%;
-  font-size: 1.2em;
 }
 
 input:focus, textarea:focus, select:focus{
@@ -19,8 +17,14 @@ input:focus, textarea:focus, select:focus{
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979FF;
-  /* padding: 8px; */
+  background: #2C5364;
+  padding: 8px;
   display: inline-block;
   border: none;
+  z-index: 10;
+}
+
+
+#messageType input[type='text'] {
+  border: none !important;
 }
