@@ -26,3 +26,8 @@
 .onlineIcon {
   margin-right: 5%;
 }
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}

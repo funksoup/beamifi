@@ -7,6 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/* body {
+  animation: hue 11s linear 0s infinite reverse;
+}
+html::before {
+  background: linear-gradient(105deg, rgba(255, 190, 0, 0), #ffbe00);
+  animation: hue 12s linear 1s infinite;
+} */
+
+@keyframes hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
