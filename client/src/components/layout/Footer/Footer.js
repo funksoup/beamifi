@@ -15,7 +15,7 @@ const Footer = () => {
           <MDBCol md="6">
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Email: beamifi@com</a>
+                <a href="#!">Email: beamifi.team@gmail.com</a>
               </li>
               <li className="list-unstyled">
                 <a href="#!">Tel: 123-456-7890</a>
