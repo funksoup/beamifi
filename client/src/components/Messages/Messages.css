@@ -4,5 +4,7 @@
   flex: auto;
   border: 2px solid #2C5364;
   border-bottom: none !important;
+  overflow-y: auto;
+  max-height: 60vh;
 }
 
