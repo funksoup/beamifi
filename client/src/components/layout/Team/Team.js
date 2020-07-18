@@ -8,8 +8,8 @@ const Team = () => (
     <div className={styles.teammember}>
       <img className={styles.teamphoto} src="https://ca.slack-edge.com/TSVUWLRHS-UT24RGY5N-df27d43b7352-512"/>
       <h4>Daniel R</h4>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
-      <a target='_blank' rel="noopener noreferrer" href="#" id="linkedin" className="waves-effect waves-light" type="button" role="button">
+      <span>UI Designer entering the Full Stack Web Developer space</span>
+      <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/danielm-rivera/" id="linkedin">
                     <i className="fab fa-linkedin-in"> </i>
                   </a>
     </div>
@@ -30,7 +30,7 @@ const Team = () => (
     <div className={styles.teammember}>
     <img className={styles.teamphoto} src="https://ca.slack-edge.com/TSVUWLRHS-USV2R1Y59-bf4edb039536-512"/>
       <h4>Kornajun Roy</h4>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+      <span>Kornajun Roy is a web developer with a focus on mental health and spiritual well being</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/kornajun-roy-2b25959/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
                     <i className="fab fa-linkedin-in"> </i>
                   </a>
