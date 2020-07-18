@@ -16,8 +16,8 @@ import setAuthToken from './utils/setAuthToken';
 import './App.css';
 
 // // import react-admin components
-import { Admin, Resource } from 'react-admin';
-import Dashboard from './container/Dashboard' 
+// import { Admin, Resource } from 'react-admin';
+// import Dashboard from './container/Dashboard' 
 
 
 if(localStorage.token) {
@@ -39,7 +39,7 @@ const App = () => {
               <Route exact path='/about' component={About} />
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} /> 
-              <Route path="/dashboard" component={Dashboard}/>
+              {/* <Route path="/dashboard" component={Dashboard}/> */}
               <Route path="/chat" component={Chat} />
             </Switch>
           </div>

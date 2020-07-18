@@ -58,26 +58,26 @@ const Register = props => {
 
 
 
-        <div className='col-md-4 form-container mt-5 pt-3'>
-        <h1>
+        <div className='col-md-4 form-container mt-5 pt-5'>
+        <h1 className="text-center">
             Account <span className="text-primary">Register</span>
         </h1>
         <form onSubmit={onSubmit}>
             <div className="form-group">
                 {/* <label htmlFor="name">Name</label> */}
-                <input type="text" name="name" value={name} onChange={onChange} required placeholder="Enter your name"/>
+                <input type="text" name="name" style={{borderRadius: "5px"}} value={name} onChange={onChange} required placeholder="Enter your name"/>
             </div>
             <div className="form-group">
                 {/* <label htmlFor="email">Email Address</label> */}
-                <input type="email" name="email" value={email} onChange={onChange} required placeholder="Enter your email"/>
+                <input type="email" name="email" style={{borderRadius: "5px"}} value={email} onChange={onChange} required placeholder="Enter your email"/>
             </div>
             <div className="form-group">
                 {/* <label htmlFor="password">Password</label> */}
-                <input type="password" name="password" value={password} onChange={onChange} required minLength="6" placeholder="Enter your password"/>
+                <input type="password" name="password" style={{borderRadius: "5px"}} value={password} onChange={onChange} required minLength="6" placeholder="Enter your password"/>
             </div>
             <div className="form-group">
                 {/* <label htmlFor="password2">Confirm Password</label> */}
-                <input type="password" name="password2" value={password2} onChange={onChange} required minLength="6" placeholder="Confirm your password"/>
+                <input type="password" name="password2" style={{borderRadius: "5px"}} value={password2} onChange={onChange} required minLength="6" placeholder="Confirm your password"/>
             </div>
             <input type="submit" value="Register" className="btn btn-primary btn-block" />
         </form>
