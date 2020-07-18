@@ -14,6 +14,8 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
+// route for opentok api
+// app.use('/api/session', require('./routes/session'));
 
 //Connect Database
 connectDB();
@@ -28,8 +30,7 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/contacts', require('./routes/contacts'));
 app.use('/api/contact-us', require('./routes/contact-us'));
 
-// route for opentok api
-app.use('/api/session', require('./routes/session'));
+
 
 
 if(process.env.NODE_ENV==='production') {
