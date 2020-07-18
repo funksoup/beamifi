@@ -77,17 +77,17 @@ const Login = (props) => {
 
 
         <div className='form-container'>
-        <h1>
+        <h1 className="text-center mb-4 pb-3">
             Account <span className="text-primary">Login</span>
         </h1>
         <form onSubmit={onSubmit}>
             <div className="form-group">
                 <label htmlFor="email">Email Address</label>
-                <input type="email" name="email" value={email} onChange={onChange} required />
+                <input type="email" name="email" style={{borderRadius: "5px"}} value={email} onChange={onChange} required />
             </div>
             <div className="form-group">
                 <label htmlFor="password">Password</label>
-                <input type="password" name="password" value={password} onChange={onChange} required />
+                <input type="password" name="password" style={{borderRadius: "5px"}} value={password} onChange={onChange} required />
             </div>
             <input type="submit" value="Login" className="btn btn-primary btn-block" />
         </form>

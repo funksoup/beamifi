@@ -1,3 +1,4 @@
+
 .messages {
   padding: 20% 0;
   overflow: auto;
@@ -7,4 +8,3 @@
   overflow-y: auto;
   max-height: 60vh;
 }
-
