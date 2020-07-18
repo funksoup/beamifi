@@ -40,7 +40,7 @@ const Team = () => (
 
 
     <div className={styles.teammember}>
-    <img className={styles.teamphoto} src="https://ca.slack-edge.com/TSVUWLRHS-USYMDE886-2fbaca4cebe9-512"/>
+    <img className={styles.teamphoto} src="https://cdn.glitch.com/03279a54-ead6-43fe-840a-8180cf9f1fc1%2FRyan3.jpg?v=1595084062739"/>
       <h4>Ryan Fallon</h4>
       <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/ryan-fallon-549a64126/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
