@@ -59,20 +59,24 @@ io.on('connect', (socket) => {
   
     socket.on('sendMessage', (message, callback) => {
       const user = getUser(socket.id);
-  
+      if (!user) {
+        return callback()
+      };
       io.to(user.room).emit('message', { user: user.name, text: message });
   
       callback();
     });
   
-    socket.on('disconnect', () => {
+    socket.on('disconnectUser', (callback) => {
+      console.log("User has left.");
       const user = removeUser(socket.id);
   
       if(user) {
         io.to(user.room).emit('message', { user: 'Admin', text: `${user.name} has left.` });
         io.to(user.room).emit('roomData', { room: user.room, users: getUsersInRoom(user.room)});
       }
-    })
+      callback();
+    });
   });
 
 const PORT = process.env.PORT || 5000;
