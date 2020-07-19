@@ -2,6 +2,7 @@ import React, { useContext,useEffect } from 'react'
 import Join from '../../components/Join/Join'
 import AuthContext from '../../context/auth/authContext'
 import ParticlesBg from 'particles-bg'
+import 'fontsource-roboto';
 
 
 

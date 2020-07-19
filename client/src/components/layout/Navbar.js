@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 import ContactContext from '../../context/contact/contactContext';
 import authContext from '../../context/auth/authContext';
+import 'fontsource-roboto';
+
 
 const Navbar = ({ title, icon }) => {
 

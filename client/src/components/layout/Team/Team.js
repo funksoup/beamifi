@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Team.module.css'
+import 'fontsource-roboto';
+
 
 const Team = () => (
 
@@ -10,7 +12,7 @@ const Team = () => (
       <h4>Daniel R</h4>
       <span>UI Designer entering the Full Stack Web Developer space</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/danielm-rivera/" id="linkedin">
-                    <i className="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in linkedin-color"> </i>
                   </a>
     </div>
 
@@ -21,7 +23,7 @@ const Team = () => (
       <h4>Josephine Dorado</h4>
       <span>Creative technologist with an entrepreneurial spirit and a focus on social impact</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/funksoup/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
-                    <i className="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in linkedin-color"> </i>
                   </a>
     </div>
 
@@ -32,7 +34,7 @@ const Team = () => (
       <h4>Kornajun Roy</h4>
       <span>Kornajun Roy is a web developer with a focus on mental health and spiritual well being</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/kornajun-roy-2b25959/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
-                    <i className="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in linkedin-color"> </i>
                   </a>
     </div> 
 
@@ -44,7 +46,7 @@ const Team = () => (
       <h4>Ryan Fallon</h4>
       <span>Web developer, volunteering in non-profits that benefit differently-abled and mental health causes</span>
       <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/ryan-fallon-549a64126/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
-                    <i className="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in linkedin-color"> </i>
                   </a>
     </div> 
 
@@ -55,7 +57,7 @@ const Team = () => (
       <h4>Yaheng Wu</h4>
       <span>Web developer with a diverse background in accounting and information systems</span>
        <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/yahengwu/" id="linkedin" className="waves-effect waves-light" type="button" role="button">
-                    <i className="fab fa-linkedin-in"> </i>
+                    <i className="fab fa-linkedin-in linkedin-color"> </i>
                   </a>
     </div> 
   

@@ -1,3 +1,8 @@
+
+.linkedin-color {
+color: #0e76a8;
+}
+
 h1.teamh1 {
     margin: 0;
     position: absolute;
@@ -50,12 +55,11 @@ h1.teamh1 {
   .teammember span,
   .teammember h4 {
     max-width: 200px;
-    font-family: sans-serif;
     letter-spacing: -1px;
   }
   
   .teammember h4 {
-    color: #1CA3A3;
+    color: #5394A0;
   }
   
   .email {

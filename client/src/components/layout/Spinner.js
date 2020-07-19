@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import spinner from './spinner.gif';
+import 'fontsource-roboto';
+
 
 export default () => (
   <Fragment>
