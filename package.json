@@ -28,6 +28,7 @@
   "homepage": "https://github.com/funksoup/beamifi",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
+    "animate.css": "^4.1.0",
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
@@ -49,8 +50,10 @@
     "ra-data-simple-rest": "^3.7.1",
     "react-leaf-carousel": "^2.0.3",
     "react-mail-form": "^2.1.0",
+    "react-simple-chatbot": "^0.6.1",
     "semantic-ui-react": "^0.88.2",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",

@@ -3,6 +3,8 @@ import Join from '../../components/Join/Join'
 import AuthContext from '../../context/auth/authContext'
 import ParticlesBg from 'particles-bg'
 
+
+
 const Home = () => {
     const authContext = useContext(AuthContext);
 
@@ -12,7 +14,6 @@ const Home = () => {
     },[])
     return (
         <>
-
         <Join/>
         <Join/>
 
@@ -26,6 +27,7 @@ const Home = () => {
         <Join/>
 
         <ParticlesBg num={10} type="circle" bg={true}/>
+    
         </>
     )
 }
