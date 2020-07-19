@@ -6,7 +6,7 @@ import 'fontsource-roboto';
 const Team = () => (
 
     <div className={styles.cf} className={styles.teamcontainer}>
-        <h1 className={styles.teamh1}>Our Team</h1>
+        <h1 className="text-center mb-3">Our Team</h1>
     <div className={styles.teammember}>
       <img className={styles.teamphoto} alt="Daniel" src="https://ca.slack-edge.com/TSVUWLRHS-UT24RGY5N-df27d43b7352-512"/>
       <h4>Daniel R</h4>

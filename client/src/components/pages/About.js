@@ -28,7 +28,7 @@ const About = () => {
           <div className="row">
           <Team />
           </div>
-          <h1 className="text-center mt-3">Questions? Comments? Contact Us!</h1>
+          <h1 className="text-center mt-3 pt-3">Questions? Comments? Contact Us!</h1>
           <ContactUs />
           <Footer />
         </div>
