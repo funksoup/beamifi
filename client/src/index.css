@@ -34,8 +34,8 @@ a:hover {
 
 .navbar, .btn-primary, .bg-primary, .badge-primary, .alert-primary {
   background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027) !important;  
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027) !important; 
+  background: -webkit-linear-gradient(to right, #203A43, #2C5364, #5394A0) !important;  
+  background: linear-gradient(to right, #203A43, #2C5364, #5394A0) !important; 
   color: #fff;
   border-color: transparent !important;
 }
