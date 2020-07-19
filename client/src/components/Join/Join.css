@@ -36,12 +36,15 @@ input:focus {
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
-    background: #2979FF;
     padding: 8px;
     border-radius: 5px;
     display: inline-block;
     border: none;
     width: 100%;
+}
+
+.button:hover,.button:focus {
+  background-color: #293241 !important;
 }
 
 .mt-20 {

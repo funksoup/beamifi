@@ -20,7 +20,7 @@ export default function Join() {
 
       <div class="input-group-append">
         <Link target={"_blank"} rel="noopener noreferrer" onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
-          <button className={'button mt-20'} style={{backgroundColor: "#2C5364"}} type="submit">Join</button>
+          <button className={'button mt-20'} id="joinRoom" style={{backgroundColor: "#2C5364"}} type="submit">Join</button>
         </Link>
        </div>
       </div>
