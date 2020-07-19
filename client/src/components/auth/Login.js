@@ -59,8 +59,8 @@ const Login = (props) => {
 
         <div className="col-md-12 mb-4">
         <h2 className='font mb-3 mt-1 text-center'>
-            <b>Ramp Up Your Remote Collaboration with <u><span className='orange-text text-accent-3 i-line' style={{color: "#ff5e62"}}>Beamifi</span>
-            </u>{" "}</b>
+            <b>Ramp Up Your Remote Collaboration with <span style={{color: "#5394a0"}}>Beamifi</span>
+            {" "}</b>
             </h2>
         
 
@@ -78,7 +78,7 @@ const Login = (props) => {
 
         <div className='form-container'>
         <h1 className="text-center mb-4 pb-3">
-            Account <span className="text-primary">Login</span>
+            Account Login
         </h1>
         <form onSubmit={onSubmit}>
             <div className="form-group">

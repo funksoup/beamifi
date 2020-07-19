@@ -8,6 +8,8 @@ import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
 
 import './Chat.css';
+import 'fontsource-roboto';
+
 
 let socket;
 

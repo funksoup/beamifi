@@ -1,5 +1,7 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import 'fontsource-roboto';
+
 
 const Footer = () => {
   return (
@@ -7,21 +9,13 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">RampItUp with Beamifi</h5>
             <p>
-              Please feel free to contact us.
-            </p>
+              Please feel free to contact us at <a href="mailto:beamifi.team@gmail.com">beamifi.team@gmail.com</a>
+              </p>
           </MDBCol>
           <MDBCol md="6">
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Email: beamifi.team@gmail.com</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Tel: 123-456-7890</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Address: 100 Broadway, New York, NY 10010 </a>
               </li>
             </ul>
           </MDBCol>
@@ -29,7 +23,7 @@ const Footer = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="/#"> Beamifi </a>
+          &copy; {new Date().getFullYear()} Copyright: Beamifi
         </MDBContainer>
       </div>
     </MDBFooter>

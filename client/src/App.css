@@ -24,12 +24,16 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: #5394A0;
   text-decoration: none;
 }
 
 a:hover {
   color: #666;
+}
+
+.linkedin-color {
+color: #0e76a8;
 }
 
 ul {

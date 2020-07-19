@@ -2,6 +2,8 @@ import React, { useState, useContext } from 'react';
 import { Link } from "react-router-dom";
 import AuthContext from '../../context/auth/authContext';
 import './Join.css';
+import 'fontsource-roboto';
+
 
 export default function Join() {
   const [name, setName] = useState('');
