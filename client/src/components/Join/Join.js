@@ -16,7 +16,7 @@ export default function Join() {
       <div class="input-group">
 
       {/* <input placeholder="Name" className="joinInput form-control" type="text" onChange={(event) => setName(user.name)} /> */}
-          <input placeholder="Enter Room" className="joinInput form-control" type="text" onChange={(event) => {setRoom(event.target.value);setName(user.name)}} />
+          <input placeholder="Enter Room Name" className="joinInput form-control" type="text" onChange={(event) => {setRoom(event.target.value);setName(user.name)}} />
 
       <div class="input-group-append">
         <Link target={"_blank"} rel="noopener noreferrer" onClick={e => (!name || !room) ? e.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
