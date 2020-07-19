@@ -59,7 +59,7 @@ const Login = (props) => {
 
         <div className="col-md-12 mb-4">
         <h2 className='font mb-3 mt-1 text-center'>
-            <b>Ramp Up Your Remote Collaboration with <u><span className='orange-text text-accent-3 i-line' style={{color: "#ff5e62"}}>Beamifi</span>
+            <b>Ramp Up Your Remote Collaboration with <u><span className='orange-text text-accent-3 i-line' style={{color: "#5394A0"}}>Beamifi</span>
             </u>{" "}</b>
             </h2>
         

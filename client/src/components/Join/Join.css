@@ -41,9 +41,9 @@ input:focus {
     display: inline-block;
     border: none;
     width: 100%;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #203A43, #2C5364, #5394A0) !important;  
-    background: linear-gradient(to right, #203A43, #2C5364, #5394A0) !important; 
+    background: #5394A0;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #203A43, #2C5364, #5394A0) !important;  
+    background: linear-gradient(to right, #203A43, #2C5364, #5394A0) !important;  */
 }
 
 .button:hover,.button:focus {
