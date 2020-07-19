@@ -70,8 +70,7 @@ Navbar.propTypes = {
 
 Navbar.defaultProps = {
   title: 'Beamifi',
-  icon: 'fab fa-viadeo',
-
+  icon: 'fas fa-user-friends'
 };
 
 export default Navbar;
