@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
 import io from "socket.io-client";
+import { useHistory } from "react-router-dom";
 
 // import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
@@ -20,8 +21,9 @@ const Chat = ({ location }) => {
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
   // const ENDPOINT = 'https://beamifi-app.herokuapp.com';
-  const ENDPOINT = 'https://beamifi-app.herokuapp.com';
+  const ENDPOINT = 'http://localhost:5000';
 
+  let history= useHistory();
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
@@ -55,12 +57,25 @@ const Chat = ({ location }) => {
       socket.emit('sendMessage', message, () => setMessage(''));
     }
   }
+  const disconnectUser = (event) => {
+    event.preventDefault();
+    console.log("running disconnect");
+      socket.emit('disconnectUser', (error) => {
+        console.log("error");
+        if(error) {
+          alert(error);
+      } 
+      history.push('/');
+      console.log("this IS, in fact, working.");
+    });
+    
+  }
 
   return (
 
     <div className="outerContainer">
       <div className="container chatroom">
-          <InfoBar room={room} />
+          <InfoBar room={room} disconnectUser={disconnectUser} />
           <Messages messages={messages} name={name} />
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
