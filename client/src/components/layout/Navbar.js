@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import AuthContext from '../../context/auth/authContext';
 import ContactContext from '../../context/contact/contactContext';
 import authContext from '../../context/auth/authContext';
+import logoImg from '../../asset/beamifilogo2.png'
 import 'fontsource-roboto';
 
 
@@ -54,9 +55,9 @@ const Navbar = ({ title, icon }) => {
 
   return (
     <divs className='navbar bg-primary'>
-      <h1>
+      <h1 class="navbar-left">
         <Link to='/'>
-          <i className={icon} /> {title}
+        <img src={logoImg} style={{width: "130px"}}/>
         </Link>
       </h1>
       <ul style={{marginBottom:'0rem'}}>{isAuthenticated ? authLinks : guestLinks}</ul>
