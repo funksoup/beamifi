@@ -59,7 +59,7 @@ const Register = props => {
 
         <div className='col-md-4 form-container mt-5 pt-5'>
         <h2 className="text-center">
-            <b>Account Register</b>
+            Account Register
         </h2>
         <form onSubmit={onSubmit}>
             <div className="form-group">

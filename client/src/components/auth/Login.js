@@ -78,7 +78,7 @@ const Login = (props) => {
 
         <div className='form-container'>
         <h2 className="text-center mb-4 pb-3">
-            <b>Account Login</b>
+          Account Login
         </h2>
         <form onSubmit={onSubmit}>
             <div className="form-group">
