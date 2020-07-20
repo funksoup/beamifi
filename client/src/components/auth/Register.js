@@ -59,7 +59,7 @@ const Register = props => {
 
         <div className='col-md-4 form-container mt-5 pt-4'>
         <h2 className="text-center">
-            Account Register
+            Create an Account
         </h2>
         <form onSubmit={onSubmit}>
             <div className="form-group">
@@ -78,7 +78,7 @@ const Register = props => {
                 {/* <label htmlFor="password2">Confirm Password</label> */}
                 <input type="password" name="password2" style={{borderRadius: "5px"}} value={password2} onChange={onChange} required minLength="6" placeholder="Confirm your password"/>
             </div>
-            <input type="submit" value="Register" className="btn btn-primary btn-block" />
+            <input type="submit" value="Sign me up!" className="btn btn-primary btn-block" />
         </form>
             
         </div>
