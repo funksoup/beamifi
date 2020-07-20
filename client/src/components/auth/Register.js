@@ -57,8 +57,7 @@ const Register = props => {
       </div>
 
 
-
-        <div className='col-md-4 form-container mt-5 pt-5'>
+        <div className='col-md-4 form-container mt-5 pt-4'>
         <h2 className="text-center">
             Account Register
         </h2>
