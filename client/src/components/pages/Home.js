@@ -25,7 +25,6 @@ const Home = () => {
         <Join/>
  
         <Join/>
-        <Join/>
 
         <ParticlesBg num={10} type="circle" bg={true}/>
     
