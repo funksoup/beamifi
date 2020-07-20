@@ -23,6 +23,18 @@ body {
   color: #333;
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  padding-top: 2rem;
+  color: #696969;
+}
+
 a {
   color: #5394A0;
   text-decoration: none;
@@ -35,6 +47,7 @@ a:hover {
 .linkedin-color {
 color: #0e76a8;
 }
+
 
 ul {
   list-style: none;
