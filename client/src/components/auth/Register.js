@@ -57,10 +57,9 @@ const Register = props => {
       </div>
 
 
-
         <div className='col-md-4 form-container mt-5 pt-5'>
         <h2 className="text-center">
-            <b>Account <span style={{color: "#5394a0"}}>Register</span></b>
+            <b>Account Register</b>
         </h2>
         <form onSubmit={onSubmit}>
             <div className="form-group">
